@@ -1,0 +1,48 @@
+{
+  "name": "nodejs-api-example",
+  "version": "0.0.1",
+  "description": "Register API Service for Salut application",
+  "private": true,
+  "contributors": [
+    {
+      "name": "Damiano Alves",
+      "email": "damiano.alves@gmail.com"
+    }],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DamianoAlves/NodeJs-API-Example.git"
+  },
+  "license": "ISC",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon ./app",
+    "test": "NODE_ENV=testing nodemon ./app",
+    "prod": "NODE_ENV=production node ./app"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "cpf": "^2.0.1",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "file-type": "^10.6.0",
+    "helmet": "^3.15.0",
+    "http-errors": "^1.6.3",
+    "joi": "^13.7.0",
+    "moment": "^2.22.2",
+    "morgan": "~1.9.0",
+    "multer": "^1.4.1",
+    "nodemon": "^1.18.4",
+    "qs": "^6.5.2",
+    "redis": "^2.8.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "engines": {
+    "node": ">= 8.0.0",
+    "npm": ">= 3.0.0"
+  }
+}

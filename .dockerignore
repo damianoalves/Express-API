@@ -1,0 +1,5 @@
+# Author Tawan Silva
+node_modules
+npm-debug.log
+README.md
+.gitignore
