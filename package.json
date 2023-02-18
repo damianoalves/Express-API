@@ -7,7 +7,8 @@
     {
       "name": "Damiano Alves",
       "email": "damiano.alves@gmail.com"
-    }],
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/DamianoAlves/NodeJs-API-Example.git"
@@ -31,15 +32,14 @@
     "moment": "^2.22.2",
     "morgan": "~1.9.0",
     "multer": "^1.4.1",
-    "nodemon": "^1.18.4",
     "qs": "^6.5.2",
-    "redis": "^2.8.0",
+    "redis": "^4.6.4",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
     "winston": "^3.1.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.4"
+    "nodemon": "^2.0.20"
   },
   "engines": {
     "node": ">= 8.0.0",
