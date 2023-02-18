@@ -1,5 +1,5 @@
 const express = require('express');
-const winston = require('./startup/logging');
+const winston = require('./src/configs/logging');
 const helmet = require('helmet');
 const logger = require('morgan');
 const cors = require('cors');
