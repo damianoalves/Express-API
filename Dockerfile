@@ -1,5 +1,4 @@
 FROM node:alpine
-MAINTAINER Damiano Alves (damiano.alves@gmail.com)
 
 WORKDIR /usr/src/app
 
